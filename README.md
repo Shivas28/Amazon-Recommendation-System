@@ -36,15 +36,14 @@ This project builds a complete **product recommendation system** using real-worl
 Amazon-Recommendation-System/
 │
 ├── project_1.ipynb     # Main notebook — full pipeline
-├── ratings_.csv        # ⚠️ Not included — download from Kaggle (link below)
+├── ratings_.csv        # ⚠️ Not included — too large to upload (300MB+)
 └── README.md
 ```
 
 ## 📁 Dataset
 
-The dataset used is the **Amazon Product Ratings** dataset available on Kaggle.  
-👉 [Download here](https://www.kaggle.com/datasets/skillsmuggler/amazon-ratings)  
-After downloading, rename the file to `ratings_.csv` and place it in the project root.
+> ⚠️ `ratings_.csv` is not included in this repository — file size exceeds 300MB.  
+> You can find similar Amazon product ratings datasets on [Kaggle](https://www.kaggle.com/search?q=amazon+product+ratings) or [UC San Diego Amazon Review Data](https://cseweb.ucsd.edu/~jmcauley/datasets/amazon_v2/).
 
 ---
 
@@ -178,7 +177,7 @@ pip install pandas numpy matplotlib seaborn scikit-learn jupyter
 jupyter notebook project_1.ipynb
 ```
 
-> ⚠️ Download `ratings_.csv` from [Kaggle](https://www.kaggle.com/datasets/skillsmuggler/amazon-ratings) and place it in the same directory as the notebook.
+> ⚠️ Download a compatible Amazon ratings dataset from [Kaggle](https://www.kaggle.com/search?q=amazon+product+ratings) or [UC San Diego](https://cseweb.ucsd.edu/~jmcauley/datasets/amazon_v2/) and place it as `ratings_.csv` in the project root.
 
 ---
 
